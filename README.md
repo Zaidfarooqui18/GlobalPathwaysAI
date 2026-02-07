@@ -1,8 +1,5 @@
-# GlobalPathwaysAI
-A neutral, AI-powered decision engine that helps students decide between studying locally or abroad. Features a custom ROI calculator, visa probability estimation, and a comparison matrix to eliminate agent bias.
-
 # 🌍 Global Pathways AI
-
+A neutral, AI-powered decision engine that helps students decide between studying locally or abroad. Features a custom ROI calculator, visa probability estimation, and a comparison matrix to eliminate agent bias.
 **Plan your education and career with data, not guesswork.**
 
 Global Pathways AI is a transparency-first decision support platform designed to help graduates and early-career professionals answer one core question: *Should I stay local or go abroad?*
@@ -56,16 +53,6 @@ The system utilizes a **CatBoost Classifier**, chosen for its superior handling 
 
 ---
 
-## 📸 Screenshots
-
-| Onboarding | Comparison Matrix |
-|:---:|:---:|
-| <img src="[Link to Onboarding Screenshot]" width="400"> | <img src="[Link to Comparison Screenshot]" width="400"> |
-
-*(Add your screenshots to an `/assets` folder and link them here)*
-
----
-
 ## 🏃‍♂️ Running Locally
 
 ### **Frontend Setup**
@@ -81,3 +68,14 @@ npm install
 
 # Run the development server
 npm run dev
+
+### **Backend Setup**
+```bash
+# Navigate to the backend directory
+cd backend
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run the server
+python app.py
