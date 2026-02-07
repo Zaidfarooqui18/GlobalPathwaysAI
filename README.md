@@ -68,14 +68,3 @@ npm install
 
 # Run the development server
 npm run dev
-
-### **Backend Setup**
-```bash
-# Navigate to the backend directory
-cd backend
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Run the server
-python app.py
